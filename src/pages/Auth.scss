@@ -1,0 +1,40 @@
+.login_form{
+    margin: auto;
+    width: 30%;
+    background-color: darkgray;
+    margin: 100px auto;
+    padding: 20px;
+    h1{
+        text-align: center;
+    }
+    form{
+        font-weight: 100;
+        .input_group{
+            font-weight: 100;
+    
+            label{
+                font-weight: bolder;
+                 color: #0a0e3e;
+            }
+            input{
+                width: 100%;
+                padding: 9px;
+                outline: none;
+    
+            }
+        }
+        .actions{
+
+            margin-top: 20px;    
+            button{
+                font-weight: 100;
+                width: 100%;
+                padding: 5px;
+                margin-bottom: 5px;
+                cursor: pointer;
+
+    
+            }
+        }
+    }
+}
